@@ -14,7 +14,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 40px;
+    padding: 20px 35px;
     background: #ffffff;
 }
 
@@ -24,7 +24,7 @@ body {
 }
 
 .top-nav nav a {
-    margin: 0 50px;
+    margin: 0 45px;
     text-decoration: none;
     color: #333;
 }
