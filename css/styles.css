@@ -32,7 +32,7 @@ body {
     margin: 0 45px;
     text-decoration: none;
     color: #000;
-    font-weight: bold
+    font-weight: 700;
 }
 
 .phone {
@@ -50,7 +50,7 @@ body {
 .category-bar a {
     color: white;
     margin-right: 100px;
-    text-decoration: none;
+    font-weight: 500;
 }
 
 /* Hero Section */
