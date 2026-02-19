@@ -37,6 +37,7 @@ body {
 .category-bar {
     background: #222;
     padding: 10px 40px;
+    text-align: center;
 }
 
 .category-bar a {
