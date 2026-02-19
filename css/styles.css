@@ -18,6 +18,10 @@ body {
     background: #ffffff;
 }
 
+.logo img {
+    height: 50px;
+}
+
 .top-nav nav a {
     margin: 0 15px;
     text-decoration: none;
