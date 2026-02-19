@@ -13,7 +13,7 @@ body {
 .top-nav {
     display: flex;
     justify-content: space-between;
-    align-items: right;
+    align-items: center;
     padding: 20px 40px;
     background: #ffffff;
 }
@@ -24,7 +24,7 @@ body {
 }
 
 .top-nav nav a {
-    margin: -10 0px;
+    margin: 0 15px;
     text-decoration: none;
     color: #333;
 }
