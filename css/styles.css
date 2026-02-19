@@ -13,18 +13,18 @@ body {
 .top-nav {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: right;
     padding: 20px 40px;
     background: #ffffff;
 }
 
 .logo img {
     height: 70px;
-    margin-left: 30px;
+    margin-left: 45px;
 }
 
 .top-nav nav a {
-    margin: 0 15px;
+    margin: 0 25px;
     text-decoration: none;
     color: #333;
 }
