@@ -203,9 +203,11 @@ body {
 
 .work-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    grid-template-columns: 1fr 1fr;
     gap: 30px;
     padding: 60px 40px;
+    max-width: 900px;
+    margin: auto;
 }
 
 .work-card {
