@@ -131,3 +131,31 @@ body {
         flex-direction: column;
     }
 }
+.contact-page {
+    padding: 80px 40px;
+    max-width: 1100px;
+    margin: auto;
+}
+
+.contact-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    margin-top: 40px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+}
+
+.contact-form button {
+    background: #2F6B4F;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+}
