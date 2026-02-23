@@ -246,3 +246,26 @@ body {
     height: 250px;
     object-fit: cover;
 }
+.services-hero {
+    text-align: center;
+    padding: 80px 40px;
+    background: #FEF8F2;
+}
+
+.services-grid-page {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 25px;
+    padding: 60px 40px;
+}
+
+.service-box {
+    background: white;
+    padding: 25px;
+    text-align: center;
+}
+
+.services-cta {
+    text-align: center;
+    padding: 80px 40px;
+}
