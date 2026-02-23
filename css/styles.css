@@ -228,3 +228,21 @@ body {
 .work-card:last-child {
     grid-column: span 2;
 }
+.gallery-hero {
+    text-align: center;
+    padding: 80px 40px;
+    background: #FEF8F2;
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 60px 40px;
+}
+
+.gallery-grid img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
