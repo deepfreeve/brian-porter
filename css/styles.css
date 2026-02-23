@@ -223,4 +223,7 @@ body {
 
 .work-card h2 {
     margin-top: 10px;
+} 
+.work-card:last-child {
+    grid-column: span 2;
 }
