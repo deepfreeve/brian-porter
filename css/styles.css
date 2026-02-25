@@ -269,3 +269,7 @@ body {
     text-align: center;
     padding: 80px 40px;
 }
+.contact-info a {
+    color: #000;
+    text-decoration: none;
+}
