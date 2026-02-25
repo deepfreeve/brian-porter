@@ -299,3 +299,11 @@ body {
 body {
     background: #FEF8F2;
 }
+.about-columns {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+    max-width: 1100px;
+    margin: auto;
+    padding: 80px 40px;
+}
