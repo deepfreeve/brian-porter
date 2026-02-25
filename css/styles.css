@@ -331,8 +331,10 @@ body {
 
 .service-box {
     background: white;
-    padding: 20px;
+    padding: 25px 20px;
     text-align: center;
+    align-self: start;
+    min-height: 140px;
 }
 
 /* Center the last two services */
