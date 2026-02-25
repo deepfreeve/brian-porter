@@ -273,3 +273,23 @@ body {
     color: #000;
     text-decoration: none;
 }
+.contact-info {
+    padding-top: 30px;
+}
+
+.contact-info h2 {
+    font-size: 28px;
+    margin-bottom: 25px;
+}
+
+.contact-info p {
+    font-size: 18px;
+    margin-bottom: 18px;
+    line-height: 1.6;
+}
+
+.contact-info a {
+    color: #000;
+    text-decoration: none;
+    font-weight: 600;
+}
