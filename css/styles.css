@@ -308,3 +308,11 @@ body {
     padding: 80px 40px;
     align-items: start;   /* THIS fixes the vertical alignment */
 }
+.services-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+.about-columns {
+    background: #FEF8F2;
+}
