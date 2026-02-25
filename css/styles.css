@@ -294,10 +294,10 @@ body {
     font-weight: 600;
 }
 .contact-page {
-    background: #FEF8F2;
+    background: #F5EFE7;
 }
 body {
-    background: #FEF8F2;
+    background: #F5EFE7;
 }
 .about-columns {
     display: grid;
@@ -314,7 +314,7 @@ body {
     gap: 20px;
 }
 .about-columns {
-    background: #FEF8F2;
+    background: #F5EFE7;
 }
 .about-services,
 .why-us {
