@@ -320,3 +320,13 @@ body {
 .why-us {
     margin: 0;
 }
+.services-grid-page {
+    max-width: 1100px;
+    margin: auto;
+}
+
+.services-grid-page .service-box:nth-last-child(1),
+.services-grid-page .service-box:nth-last-child(2) {
+    grid-column: span 1;
+    justify-self: center;
+}
