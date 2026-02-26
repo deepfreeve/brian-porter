@@ -238,12 +238,6 @@ body {
     justify-content: center;
 }
 
-.gallery-hero-content {
-    background: rgba(0,0,0,0.5);
-    color: white;
-    padding: 20px 40px;
-    text-align: center;
-}
 .gallery-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
