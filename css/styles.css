@@ -491,3 +491,12 @@ body {
     }
 
 }
+/* ===== FINAL MOBILE NAV FIX ===== */
+@media (max-width: 768px) {
+    .logo img {
+        margin-left: 0;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
