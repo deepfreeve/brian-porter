@@ -355,3 +355,9 @@ body {
 .services-grid-page .service-box:nth-last-child(1) {
     grid-column: 4;
 }
+/* Gallery hero images */
+.kitchen-hero { background-image: url("../images/kitchen-hero.jpg"); }
+.bathroom-hero { background-image: url("../images/bathroom-hero.jpg"); }
+.outdoors-hero { background-image: url("../images/outdoors-hero.jpg"); }
+.balcony-hero { background-image: url("../images/balcony-hero.jpg"); }
+.landscaping-hero { background-image: url("../images/landscaping-hero.jpg"); }
