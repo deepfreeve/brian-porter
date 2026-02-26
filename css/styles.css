@@ -367,3 +367,72 @@ body {
 .outdoors-hero { background-image: url("../images/outdoors-hero.jpg"); }
 .balcony-hero { background-image: url("../images/balcony-hero.jpg"); }
 .landscaping-hero { background-image: url("../images/landscaping-hero.jpg"); }
+/* ================= MOBILE ================= */
+@media (max-width: 768px) {
+
+    /* Navbar spacing */
+    .top-nav {
+        flex-direction: column;
+        gap: 15px;
+        text-align: center;
+    }
+
+    .top-nav nav {
+        margin: 0;
+    }
+
+    /* Category bar wraps to multiple lines */
+    .category-bar {
+        text-align: center;
+        padding: 15px;
+    }
+
+    .category-bar a {
+        display: inline-block;
+        margin: 10px;
+    }
+
+    /* Hero sections shrink */
+    .hero {
+        flex-direction: column;
+    }
+
+    .hero-content {
+        padding: 40px 20px;
+    }
+
+    /* Services grid (homepage cards) */
+    .services-grid {
+        grid-template-columns: 1fr;
+    }
+
+    /* Work page cards */
+    .work-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .work-card:last-child {
+        grid-column: span 1;
+    }
+
+    /* About page image + text stack */
+    .about-grid {
+        grid-template-columns: 1fr;
+    }
+
+    /* Contact page columns stack */
+    .contact-container {
+        grid-template-columns: 1fr;
+    }
+
+    /* Gallery images */
+    .gallery-grid {
+        grid-template-columns: 1fr;
+    }
+
+    /* Gallery hero text smaller */
+    .gallery-hero-text h1 {
+        font-size: 32px;
+    }
+
+}
