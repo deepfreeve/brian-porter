@@ -461,3 +461,11 @@ body {
     }
 
 }
+@media (max-width: 768px) {
+
+    .services-grid-page {
+        grid-template-columns: 1fr 1fr;
+        padding: 40px 20px;
+    }
+
+}
