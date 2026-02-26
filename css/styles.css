@@ -402,13 +402,15 @@ body {
     }
 
     /* Services grid (homepage cards) */
-   .services-grid {
+ /* SERVICES MOBILE FIX */
+.services-grid {
     grid-template-columns: 1fr 1fr !important;
-    gap: 15px !important;
+    gap: 12px !important;
 }
 
 .service-card {
     min-width: 0 !important;
+    width: 100% !important;
 }
 
     /* Work page cards */
