@@ -500,3 +500,8 @@ body {
         margin-left: auto;
     }
 }
+/* Fix iPhone auto phone number styling */
+a[href^="tel"] {
+    color: #000;
+    text-decoration: none;
+}
