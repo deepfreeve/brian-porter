@@ -483,3 +483,11 @@ body {
     }
 
 }
+@media (max-width: 768px) {
+
+    .about-columns {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+
+}
