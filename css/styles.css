@@ -402,10 +402,13 @@ body {
     }
 
     /* Services grid (homepage cards) */
-    .services-grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 15px;
+   .services-grid {
+    grid-template-columns: 1fr 1fr !important;
+    gap: 15px !important;
+}
+
+.service-card {
+    min-width: 0 !important;
 }
 
     /* Work page cards */
