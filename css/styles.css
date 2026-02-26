@@ -469,3 +469,17 @@ body {
     }
 
 }
+@media (max-width: 768px) {
+
+    .services-grid-page {
+        grid-template-columns: 1fr 1fr;
+        padding: 40px 20px;
+    }
+
+    /* remove desktop centering on mobile */
+    .services-grid-page .service-box:nth-last-child(2),
+    .services-grid-page .service-box:nth-last-child(1) {
+        grid-column: auto;
+    }
+
+}
