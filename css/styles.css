@@ -341,7 +341,7 @@ body {
     grid-template-columns: repeat(6, 1fr);
     gap: 25px;
     padding: 60px 40px;
-    max-width: 1300px;
+    max-width: 1500px;
     margin: auto;
 }
 
